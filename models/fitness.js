@@ -11,12 +11,12 @@ const fitnessTracker = new Schema({
             type: {
                 type: String,
                 trim: true,
-                required: "Enter your exerciese"
+                required: "Exercise Type"
             },
             name: {
                 type: String,
                 trim: true,
-                required: "Enter the name of the exercise"
+                required: "Exercise Name"
             },
             weight: {
                 type: Number
